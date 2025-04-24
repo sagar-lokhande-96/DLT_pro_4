@@ -6,7 +6,7 @@ let started = false;
 let level =0;
 let h2 =document.querySelector("h2");
 let startBtn = document.querySelector(".start-btn")
-startBtn.addEventListener("click",function (){
+startBtn.addEventListener("onclick",function (){
     if(started==false){
         console.log("game is started");
         started=true;
