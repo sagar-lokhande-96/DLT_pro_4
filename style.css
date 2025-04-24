@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    height: 100vh;
 }
 .btn{
     height: 200px;
@@ -31,4 +32,20 @@ body{
 }
 .userFlash{
     background-color: green;
+}
+
+.start-btn{
+    margin: 2.5rem 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 10% ;
+    height: 50px;
+    width: 100px;
+    font-size: 1rem;
+    border: 2px solid black;
+}
+
+.start-btn:active{
+    background-color: #16d530;
+    color: black;
 }
