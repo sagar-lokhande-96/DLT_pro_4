@@ -5,8 +5,8 @@ let Btns=["yellow","green","red","purple"]
 let started = false;
 let level =0;
 let h2 =document.querySelector("h2");
-let startBtn = document.querySelector(".start-btn")
-startBtn.addEventListener("onclick",function (){
+let startBtn = document.querySelector(".start-btn");
+startBtn.addEventListener("click",function (){
     if(started==false){
         console.log("game is started");
         started=true;
